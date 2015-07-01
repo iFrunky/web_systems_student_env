@@ -15,6 +15,7 @@ function HOME(){
 Router::get('^\/home\/$', 'home');
 Router::get('^\/$', 'home');
 Router::get('^\/user(\/?)add\/?$', 'add');
+
 Router::get('^\/user(\/?)(\d+)$', 'user');
 Router::get('.*', 'error');
 ?>

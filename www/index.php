@@ -1,9 +1,6 @@
 <html>
 <head>
 <meta charset="utf-8">
-<?php
-header('HTTP/1.1 404 Not Found');
-?>
 </head>
 <body>
 <?php

@@ -28,15 +28,14 @@ class Router {
     $active_routes = self::$routes[$method];
     foreach ($active_routes as $pattern => $callback) {
       if (preg_match_all("/$pattern/", $uri, $matches)) {
-        if (count($matches)>1&&($matches[2])!=0){
-                  call_user_func_array($callback, $matches[2]);
-                }
-                else {
-                  $callback();
-                }
-        break;
+        $array=array();
+            for($i=1;$i<count($matches);$i++){
+                $array[$i]=$matches[$i][0];
+            }
+            call_user_func_array($callback, $array);
+            break;
       }
     }
-  }
+   }
 }
 ?>

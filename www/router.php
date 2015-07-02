@@ -32,8 +32,7 @@ class Router {
             for($i=1;$i<count($matches);$i++){
                 $array[$i]=$matches[$i][0];
             }
-            call_user_func_array($callback, $array);
-            break;
+            return call_user_func_array($callback, $array);
       }
     }
    }

@@ -3,3 +3,8 @@
     "robmorgan/phinx": "*"
   }
 }
+{
+    "require": {
+        "fenom/fenom": "2.*"
+    }
+}

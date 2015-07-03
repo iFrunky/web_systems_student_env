@@ -1,4 +1,5 @@
 <?php
+session_start();
 include_once 'Router.php';
 include_once 'fenom-master/src/Fenom.php';
 include_once 'account.routes.php';

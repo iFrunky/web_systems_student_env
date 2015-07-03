@@ -1,5 +1,5 @@
 <?php 
-/** Fenom template '/fenom-master/sandbox/templates/pract/main.tpl' compiled at 2015-07-03 05:53:17 */
+/** Fenom template '/fenom-master/sandbox/templates/pract/main.tpl' compiled at 2015-07-03 08:45:04 */
 return new Fenom\Render($fenom, function ($var, $tpl) {
 ?><!DOCTYPE html>
 <html>
@@ -34,11 +34,11 @@ return new Fenom\Render($fenom, function ($var, $tpl) {
 	'provider' => false,
 	'name' => '/fenom-master/sandbox/templates/pract/main.tpl',
 	'base_name' => '/fenom-master/sandbox/templates/pract/main.tpl',
-	'time' => 1435902406,
+	'time' => 1435913040,
 	'depends' => array (
   0 => 
   array (
-    '/fenom-master/sandbox/templates/pract/main.tpl' => 1435902406,
+    '/fenom-master/sandbox/templates/pract/main.tpl' => 1435913040,
   ),
 ),
 	'macros' => array(),

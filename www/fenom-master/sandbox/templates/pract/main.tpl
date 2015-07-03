@@ -15,20 +15,7 @@
 <div class="panel-heading">
 <h1>HEADER</h1>
 </div>
-	<!--NAV-->
-	<nav class="col-sm-2">
-	<div class="nav nav-pills nav-stacked" >
-	<p style="margin-left:15px;">Navigation</p>
-	<ul>
-	<br />
-	<a href="/"><li>Home</li></a>
-	<a href="/user/add/"><li>Регистрация</li></a>
-	<a href="#"><li>user 10</li></a>
-	<a href="/user/11"><li>user 11</li></a>
-	</ul>
-	</div>
-	</nav>
-	<!--NAV-->
+ 	{$nav}
 	{$content}
  <footer class="row footer">
       <div class="panel-footer"><p>&copy; 2015 <a href="/">Webdb.dev</a></p></div>

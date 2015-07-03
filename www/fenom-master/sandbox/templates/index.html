@@ -1,0 +1,14 @@
+<?php
+$leftMenu = array(
+array('link'=>'Домой', 'href'=>'index.php'),
+array('link'=>'О нас', 'href'=>'01.php'),
+array('link'=>'Контакты', 'href'=>'02.php'),
+array('link'=>'Таблица умножения', 'href'=>'03.php'),
+array('link'=>'Калькулятор', 'href'=>'04.php'),
+);
+echo'<ul style="list-style-type:none">';
+foreach ($leftMenu as $lav ){
+    echo"<li><a href='$lav[href]'>$lav[link]</a></li>";
+}
+echo'</ul>';
+;?>

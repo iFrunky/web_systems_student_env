@@ -1,5 +1,5 @@
 <?php 
-/** Fenom template '/fenom-master/sandbox/templates/pract/registration.tpl' compiled at 2015-07-02 11:13:30 */
+/** Fenom template '/fenom-master/sandbox/templates/pract/registration.tpl' compiled at 2015-07-03 05:53:21 */
 return new Fenom\Render($fenom, function ($var, $tpl) {
 ?>
 	<div class="well">
@@ -31,40 +31,17 @@ return new Fenom\Render($fenom, function ($var, $tpl) {
 			</form>
 		</div>
 	</div>
-	</div>
-<!--
-	<div class="panel-heading">
-	<h1>HEADER</h1>
-	</div>
-
-	<nav class="col-sm-2">
-	<div class="nav nav-pills nav-stacked" >
-	<p style="margin-left:15px;">Navigation</p>
-	<ul>
-	<br />
-	<a href="/"><li>Home</li></a>
-	<a href="/registration.html"><li>Регистрация</li></a>
-	<a href="#"><li>user 10</li></a>
-	<a href="/user/11"><li>user 11</li></a>
-	</ul>
-	</div>
-	</nav>
- <footer class="row footer">
-      <div class="panel-footer"><p>&copy; 2015 <a href="/">Webdb.dev</a></p></div>
-    </footer>
-</body>
-</html> -->
-<?php
+	</div><?php
 }, array(
 	'options' => 128,
 	'provider' => false,
 	'name' => '/fenom-master/sandbox/templates/pract/registration.tpl',
 	'base_name' => '/fenom-master/sandbox/templates/pract/registration.tpl',
-	'time' => 1435835345,
+	'time' => 1435902780,
 	'depends' => array (
   0 => 
   array (
-    '/fenom-master/sandbox/templates/pract/registration.tpl' => 1435835345,
+    '/fenom-master/sandbox/templates/pract/registration.tpl' => 1435902780,
   ),
 ),
 	'macros' => array(),
